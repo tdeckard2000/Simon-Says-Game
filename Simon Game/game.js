@@ -21,7 +21,7 @@ function nextSequence() {
   playColorAnimations(gamePattern, 0, gamePattern.length); // play colors stored in gamePattern array, then wait for click
 }
 
-// play colors stored in gamePattern array (uses workaround for setTimer)
+// play colors stored in gamePattern array (uses workaround for setTimeout)
 function playColorAnimations(gamePattern, i, numColors) {
   setTimeout(function () {
     if (i < numColors) {
